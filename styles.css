@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto', sans-serif;
+    background-color: #E1D7C6;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding:10px;
+    font-size: 1.2rem;
+    position: fixed;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    justify-content: 
+}
+
+
+.hero {
+    display:flex;
+}
+
+.hero-introduction {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    font-size: 2rem;
+    color: #295F98;
+    width: 300%;
+
+    
+  }
+  
+
+  .hero-introduction p {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden; 
+    width: 0; 
+    animation: typing 2s steps(30, end) forwards, step-end; 
+  }
+
+  .hero-graphic {
+    display: flex;
+    align-items: flex-end;
+    background-color: #295F98;
+    border-radius: 50%;
+    width: 700%;
+    padding-left: 50px;
+    margin-right: -40%;
+    
+  }
+  
+  /* Keyframe for typing effect */
+  @keyframes typing {
+    from {
+      width: 10%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
