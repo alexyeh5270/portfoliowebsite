@@ -2,8 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto', sans-serif;
-    background-color: #E1D7C6;
+    font-family: 'Space Mono', sans-serif;
+}
+
+body {
+  background: hsla(208, 33%, 21%, 1);
+
+  background: linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243748", endColorstr="#4B749F", GradientType=1 );
+  color: white;
 }
 
 .nav-bar {
@@ -20,9 +32,8 @@
 
 .nav-bar a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.2rem;
-    justify-content: 
 }
 
 
@@ -38,8 +49,8 @@
     flex-direction: column;
     align-items: flex-start;
     padding-left: 50px;
-    font-size: 2rem;
-    color: #295F98;
+    font-size: 3rem;
+    color: #FFFACD;
     width: 300%;
 
     
@@ -54,7 +65,7 @@
     animation: typing 2s steps(30, end) forwards, step-end; 
   }
 
-  .hero-graphic {
+  /*.hero-graphic {
     display: flex;
     align-items: flex-end;
     background-color: #295F98;
@@ -64,7 +75,7 @@
     margin-right: -40%;
     
   }
-  
+  */
   /* Keyframe for typing effect */
   @keyframes typing {
     from {
